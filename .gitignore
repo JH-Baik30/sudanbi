@@ -1,0 +1,26 @@
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ------------------------------------------------------------------
+# 1. 모든 파일, 폴더
+*
+
+# 2. 모든 폴더 탐색
+!*/
+
+# 3. .ipynb 확장자 파일만 예외 허용(Unignore)
+!*.ipynb
+
+# 4. .gitignore 파일 자체도 Git에 기록되도록 예외 처리
+!.gitignore
+!pyproject.toml
+!uv.lock
+!main.py
+!README.md
+
