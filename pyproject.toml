@@ -11,4 +11,5 @@ dependencies = [
     "pandas>=3.0.2",
     "pymysql>=1.1.2",
     "spacy>=3.8.14",
+    "sshtunnel>=0.4.0",
 ]
